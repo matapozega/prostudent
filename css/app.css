@@ -1,0 +1,28 @@
+.callout {
+    background-color: #1a80b6; 
+    color: #ffffff;"
+    
+  }
+ 
+.menu li {
+    padding-top: 5px;
+  }
+  
+.menu-centered {
+    border-top: 1px solid #cacaca;
+    border-bottom: 1px solid #cacaca;
+  }
+
+.menu li{
+	border-top: 4px solid transparent;
+}
+.menu li:hover{
+	border-top: 4px solid #1a80b6;
+	text-decoration: underline;	
+}
+
+.menu li a {
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: #747474;
+  }
