@@ -1,7 +1,10 @@
 <?php 
 
-$putanjaAPP = "/prostudent/" ;
-
+if($_SERVER["SERVER_NAME"]==="localhost"){
+	$putanjaAPP = "/prostudent/" ;
+}else{
+	$putanjaAPP = "/~mdurokovic/";
+}
 
 
  ?>

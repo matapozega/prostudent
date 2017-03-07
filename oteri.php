@@ -19,10 +19,10 @@
   </ul>
   <div class="tabs-content" data-tabs-content="example-tabs">
     <div class="tabs-panel is-active" id="panel1">
-     <iframe src="http://inkubator.hr/hr_HR/o-nama" width="100%" height="500px"></iframe>
+     	<iframe src="http://inkubator.hr/hr_HR/o-nama" width="100%" height="500px"></iframe>
     </div>
     <div class="tabs-panel" id="panel2">
-      <p>Suspendisse dictum feugiat nisl ut dapibus.  Vivamus hendrerit arcu sed erat molestie vehicula. Ut in nulla enim. Phasellus molestie magna non est bibendum non venenatis nisl tempor.  Sed auctor neque eu tellus rhoncus ut eleifend nibh porttitor.</p>
+    	<iframe src="http://web.tera.hr/" width="100%" height="500px"></iframe>
     </div>
   </div>
 </div>
