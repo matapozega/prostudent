@@ -8,7 +8,7 @@
 		 <a href="<?php echo $putanjaAPP ;?>povijestprostudenta.php"><span>Povijest Pro-Studenta</span></a>
 		 <a href="<?php echo $putanjaAPP ;?>partneri.php"><span>Partneri</span></a>
       </p>
-      <p class="copywrite">©Izradili studenti FERITOS</p>
+      <p class="copywrite">©FERIT Osijek</p>
     </div>
   </div>
 </footer>
