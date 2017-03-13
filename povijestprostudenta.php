@@ -21,35 +21,54 @@ include_once 'konfig.php';
 		?>
 		<br />
 		
-		<div class="row extended">
+		<div class="row column large-12 medium-centered">
+		  <ul class="tabs text-center" data-tabs id="example-tabs">
+		    <li class="tabs-title is-active"><a href="#panel1" aria-selected="true">Povijest</a></li>
+		    <li class="tabs-title"><a href="#panel2">Projekti 2015</a></li>
+		    <li class="tabs-title"><a href="#panel3">Projekti 2016</a></li>
+		  </ul>
+		  <div class="tabs-content" data-tabs-content="example-tabs">
+		    <div class="tabs-panel is-active" id="panel1">
+		     	Tu stavi što želiš za povijest Ne znam što bi kud trebalo ići
+		    </div>
+		    <div class="tabs-panel" id="panel2">
+		    	Tu stavi što želiš za 2015
+		    </div>
+		    <div class="tabs-panel" id="panel3">
+		    	Tu stavi što želiš za 2016
+		    </div>
+		  </div>
+		</div>
 		
-			<div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
-				<ul class="orbit-container">
+		<div class="row" style="width: 640px; height: 480px;">
+		
+			<div class="orbit" role="region" aria-label="Prošli natječaji" data-orbit>
+				<ul class="orbit-container ">
 					<li class="orbit-slide">
 						<div>
 							<br />
-							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/led.png" alt="Space">
+							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/led.png" alt="Tomislav Bešlić: RAČUNALNA IGRA PONG NA 16 MATRIČNIH POKAZNIKA">
 							 
 							 <p id="opis"><br /><b><u>Tomislav Bešlić: RAČUNALNA IGRA PONG NA 16 MATRIČNIH POKAZNIKA</u></b><br /></p>
 						</div>
 					</li>
 					<li class="orbit-slide">
 						<div>
-							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/ruka.png" alt="Space">
+							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/ruka.png" alt="Karlo Kostanjevac: ROBOTSKA RUKA UPRAVLJANA LJUDSKOM RUKOM">
 							 <br />
 							 <p id="opis"><br /><b><u>Karlo Kostanjevac: ROBOTSKA RUKA UPRAVLJANA LJUDSKOM RUKOM</u></b></p>
 						</div>
 					</li>
 					<li class="orbit-slide">
 						<div>
-							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/solar.png" alt="Space">
+							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/solar.png" alt="Matej Žnidarec: SOLARNI PUNJAČ SA SUSTAVOM ZA PRAĆENJE POLOŽAJA SUNCA">
 							 <br />
 							 <p id="opis"><br /><b><u>Matej Žnidarec: SOLARNI PUNJAČ SA SUSTAVOM ZA PRAĆENJE POLOŽAJA SUNCA</u></b></p>
 						</div>
 					</li>
 					<li class="orbit-slide">
 						<div>
-							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/car.png" alt="Space">
+							 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/car.png" alt="Stjepan Krpan: SMARTBOT (ROBOTCAR)">
 							 <br />
 							 <p id="opis"><br /><b><u>Stjepan Krpan: SMARTBOT (ROBOTCAR)</u></b></p>
 						</div>

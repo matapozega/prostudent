@@ -7,12 +7,12 @@ $i = json_decode($json);
 		<ul class="menu" style="font-size: 1em;">
 			<?php 
 			foreach ($i as $lista) : ?>
-			<li <?php
+			<li  <?php
 			if ($_SERVER["PHP_SELF"] == $lista -> href) :?>
 				class="aktivno"
 			<?php endif;
 				?>>
-			<a href="<?php echo $lista -> href; ?>"><span><?php echo $lista->naslov  ?></span></a>
+			<a id="<?php echo $lista -> id; ?>" href="<?php echo $lista -> href; ?>"><span><?php echo $lista->naslov  ?></span></a>
 				</li>
 			<?php endforeach; ?>
 		</ul>

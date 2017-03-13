@@ -116,7 +116,9 @@ h4 {
 /* Tvrtka */
 
 #tablica {
-	font-size: 0.75rem; }
+	font-size: 0.75rem; 
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	}
 	
 /* PARTNERI */
 
@@ -217,11 +219,30 @@ img.displayed {
 .menu li{
 	border-top: 4px solid transparent;
 }
+
 .menu li:hover{
 	border-top: 4px solid #1a80b6;
 	text-decoration: underline;	
 }
 
+.menu li #tvrtka{
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	color: red;
+	display: inline-block;
+  }
+
+.menu .aktivno{
+	border-top: 4px solid #1a80b6;
+	text-decoration: underline;		
+}
+
+
+
+  
 .menu li a {
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-weight: bold;
@@ -231,6 +252,9 @@ img.displayed {
 	color: #333030;
 	display: inline-block;
   }
+ 
+  
+
 /* uredivanje slike preko id-a 
 #slika1{
 	border-radius:0%;
@@ -240,7 +264,31 @@ img.displayed {
 #h{
 	text-decoration: underline;
 }
-.menu .aktivno{
-	border-top: 4px solid #1a80b6;
-	text-decoration: underline;		
+
+#tabl {
+	background-color: #FFFFFF;
+	color: #93a661;
+	/*border: 1px solid #000000;*/
+	font-weight: bold;
+	border:1px solid #93a661;
 }
+
+#tera {
+	background-color: #96caff;
+	color: #3c6478;
+	border:1px solid #93a661;
+}
+
+#bios {
+	background-color:#fff49a;
+	color: #3c6478;
+	border:1px solid #93a661;
+}
+
+table {
+	border-spacing: 0;
+	border-collapse: collapse;	
+}
+
+   
+

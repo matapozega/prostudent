@@ -22,7 +22,7 @@ include_once 'konfig.php';
 		<div class="row">
 			<div class="large-4 small-12 medium-6 columns">
 				<div class="item-wrapper">
-					<a target="_blank" href="http://web.tera.hr/#"><img class="displayed" src="<?php echo $putanjaAPP ?>img/bios-logo-main.png" width="128px" height="70px" /> </a>
+					<a target="_blank" href="http://inkubator.hr/hr_HR/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/bios-logo-main.png" width="128px" height="70px" /> </a>
 					<br/><br /> 
 					<p id="partneri"> Što ti nudi BIOS? </p>
 						<ul>
@@ -80,7 +80,7 @@ include_once 'konfig.php';
 							<li>
 								administrativne usluge
 							</li><br /> 
-							<dd><a href="<?php echo $putanjaAPP;  ?>oteri.php"><u>Saznajte više o BIOS-u!</u></a></li>
+							<dd><a href="http://inkubator.hr/hr_HR/"><u>Saznajte više o BIOS-u!</u></a></li>
 						</ul>
 					</p>
 				</div>
@@ -88,7 +88,7 @@ include_once 'konfig.php';
 			
 				<div class="large-4 small-12 medium-6 columns">
 					<div class="item-wrapper">
-						<a target="_blank" href="http://inkubator.hr/hr_HR/ "><img class="displayed" src="<?php echo $putanjaAPP ?>img/Tera_logo_63.png" width="190px" height="140px" /></a>
+						<a target="_blank" href="http://web.tera.hr/#"><img class="displayed" src="<?php echo $putanjaAPP ?>img/Tera_logo_63.png" width="190px" height="140px" /></a>
 						<br/><br /> 
 					<p id="partneri"> Što ti nudi Tera technopolis? </p>
 						<ul>
@@ -110,7 +110,7 @@ include_once 'konfig.php';
 							<li>
 								Uključivanje natjecatelja u projekt Europske poduzetničke mreže EEN - ponuda proizvoda/usluga/tehnologije na inozemnom tržištu
 							</li> <br /> 
-							<dd><a href="<?php echo $putanjaAPP;  ?>oteri.php"><u>Saznajte više o Teri!</u></a></li>
+							<dd><a href="http://web.tera.hr/#"><u>Saznajte više o Teri!</u></a></li>
 						</ul>
 					</p>
 					</div>
