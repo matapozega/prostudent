@@ -5,15 +5,18 @@
    }, 
    { 
       "href":"/PUTANJA/natjecaj17.php",
-      "naslov":"NATJEČAJ 2017.!"
+      "naslov":"NATJEČAJ 2017.!",
+      "id":""
    }, 
    {  
 	   "href":"/PUTANJA/partneri.php",
-      "naslov":"PARTNERI"  
+      "naslov":"PARTNERI",
+      "id":""
    },
    {  
 	  "href":"/PUTANJA/povijestprostudenta.php",
-      "naslov":"POVIJEST PRO-STUDENTA"      
+      "naslov":"POVIJEST PRO-STUDENTA",
+      "id":""    
    },
    {  
 	      
