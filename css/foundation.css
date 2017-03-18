@@ -1368,8 +1368,9 @@ h6 {
     font-size: 1rem; } }
 
 a {
+  font-weight: bold
   line-height: inherit;
-  color: #1779ba;
+  color: #404040;
   text-decoration: none;
   cursor: pointer; }
   a:hover, a:focus {
@@ -1576,7 +1577,7 @@ kbd {
   line-height: 1;
   text-align: center;
   cursor: pointer;
-  background-color: #1779ba;
+  background-color: #404040;
   color: #fefefe; }
   [data-whatinput='mouse'] .button {
     outline: 0; }
@@ -1978,7 +1979,7 @@ select {
   border-bottom: 0;
   font-size: 0.75rem;
   line-height: 1;
-  color: #1779ba; }
+  color: #404040; }
   :last-child:not(.is-active) > .accordion-title {
     border-bottom: 1px solid #e6e6e6;
     border-radius: 0 0 0 0; }
@@ -2013,7 +2014,7 @@ select {
     content: '';
     border-bottom-width: 0;
     border-top-style: solid;
-    border-color: #1779ba transparent transparent;
+    border-color: #404040 transparent transparent;
     position: absolute;
     top: 50%;
     margin-top: -3px;
@@ -3577,7 +3578,7 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
     background: transparent; }
 
 .tabs.primary {
-  background: #1779ba; }
+  background: #404040; }
   .tabs.primary > li > a {
     color: #fefefe; }
     .tabs.primary > li > a:hover, .tabs.primary > li > a:focus {
@@ -3588,15 +3589,17 @@ table.hover:not(.unstriped) tr:nth-of-type(even):hover {
   .tabs-title > a {
     display: block;
     padding: 1.25rem 1.5rem;
-    font-size: 0.75rem;
+    font-size: 0.9rem;
     line-height: 1;
-    color: #1779ba; }
+    color: #404040; }
     .tabs-title > a:hover {
       background: #fefefe;
       color: #1468a0; }
     .tabs-title > a:focus, .tabs-title > a[aria-selected='true'] {
       background: #e6e6e6;
-      color: #1779ba; }
+      color: #404040;
+      font-size: 1.3em;
+      font-weight: bold; }
 
 .tabs-content {
   border: 1px solid #e6e6e6;

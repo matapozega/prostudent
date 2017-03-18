@@ -33,26 +33,37 @@
 /* O natječaju */
 h1 {
 	font-size: 2rem;
-	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	font-weight: bold;
 	padding: 2px;
 	margin-top: 5px;
-	text-align: center; }
+	text-align: center; 
+	color: #ff0000;
+	}
 	
 #tekst{
 	font-size: 1rem;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	padding: 1px;
+	color:#404040;
 	text-align: justify; }
 #btekst{
 	font-weight: bold; }
 
-h5 {
+#dobrodosli{
+	text-align: center;
 	font-size: 1.4rem;
-	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+	color: #FF0000;
+	}
+
+h5 {
+	font-size: 2rem;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	font-weight: bold; 
 	text-align: center;
 	padding: 1px;
+	
 	}
 dt{
 	font-size: 1rem;
@@ -66,13 +77,22 @@ dt{
 
 h4 {
 	font-weight: bold;
+	color: #ff0000;
 	text-align: center;	
-	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-size: 2rem;
 		}
+h3 {
+	font-weight: bold;
+	color: #ff0000;
+	text-align: center;	
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	font-size: 1.5rem;
+		}
+
 
 #nagrada {
-	color:#1A80B6;
+	color:#404040;
 	font-size: 1rem;
 	text-align: justify;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
@@ -90,20 +110,23 @@ h4 {
 	padding: 0px; }
 	
 #povijestpro {
-	color:#1A80B6;
+	text-align: left;
+	color:#404040;
 	font-size: 1rem;
 	text-align: justify;
-	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; }
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+	
+	 }
 	
 #naslovpro {
-	color:#1A80B6;
+	color:#404040;
 	text-align: left;
 	font-size: 2rem; }
 
 #opisvideo {
 	text-align: center;
-	color:#1A80B6;
-	font-size: 0.8rem;
+	color:#404040;
+	font-size: 1rem;
 	font-weight: bold;
 	 }
 
@@ -124,16 +147,15 @@ h4 {
 
 #partneri {
 	text-align: center;
-	color: #1a80b6;
+	color: #ff0000;
 	font-weight: bold;
 	font-size: 1.5rem;
-	font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	padding: 1px;
 	}
  li {
  	text-align: left;
-	color: #1a80b6;
-	
+	color:#404040;
 	font-size: 0.8rem;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
 	padding: 1px;
@@ -147,7 +169,7 @@ h4 {
 img.displayed {
  	display: block;
     margin-left: auto;
-    margin-right: auto }
+    margin-right: auto; }
     
 /* border na partnerima */
 .item-wrapper {
@@ -221,7 +243,7 @@ img.displayed {
 }
 
 .menu li:hover{
-	border-top: 4px solid #1a80b6;
+	border-top: 4px solid #FF0000;
 	text-decoration: underline;	
 }
 
@@ -236,7 +258,7 @@ img.displayed {
   }
 
 .menu .aktivno{
-	border-top: 4px solid #1a80b6;
+	border-top: 4px solid #FF0000;
 	text-decoration: underline;		
 }
 
