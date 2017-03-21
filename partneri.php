@@ -27,13 +27,13 @@ include_once 'konfig.php';
 				 </ul>
 				 
 		  <div class="tabs-content" data-tabs-content="example-tabs" >
-			<div class="tabs-panel" id="zapro">
+			<div class="tabs-panel" id="kompot">
 				
 				
 				<!-- POČETAK ZAPRO-poziv PANELA -->
 				
 						<div class="row">
-							<div class="large-3	 small-12 medium-6 columns">
+							<div class="large-4	 small-12 medium-6 columns">
 								<div class="item-wrapper">
 									<a target="_blank" href="http://inkubator.hr/hr_HR/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/bios-logo-main.png" width="128px" height="70px" /> </a>
 									<br/><br /> 
@@ -97,9 +97,40 @@ include_once 'konfig.php';
 										</ul>
 									</p>
 								</div>
+								<div class="item-wrapper">
+										<a target="_blank" href="http://sios.hr/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/sios.png" width="100px"/></a>
+										<br/><br/><br/>
+										<p id="partneri">Što ti nudi SIOS? </p>
+										<ul>
+											<li>
+												savjetovanje i mentoriranje početnika - učenika, studenata i mladih ljudi o pokretanju
+												i vođenju poduzetničkog pothvata
+											</li>
+											<li>
+												poduzetničku čitaonicu sa preko 50 naslova suvremene ekonomske literature
+											</li>
+											<li>
+												prostor, računala, pristup Internetu, print-scan-copy- sve što Vam treba za uspješnu pripremu i 
+												razradu Vaših poduzetničkih ideja uz podršku mentora
+											</li>
+											<li>
+												praćenje natječaja, predlaganje onih na koje se Vaše ideje mogu prijaviti, pomoć u prijavi na natječaje
+											</li>
+											<li>
+												pisanje i provedba projekata
+											</li>
+											<li>
+												informiranje i savjetovanje o aktualnim poreznim propisima, knjigovodstvu, obveznim davanjima i pravnim oblicima poslovanja
+											</li> 
+											<li>
+												umrežavanje s potencijalnim partnerima, upućivanje na relevantne izvore informacija i slično
+											</li>
+											<br /> 
+											<dd><a href="http://sios.hr/#"><u>Saznajte više o SIOS-u!</u></a></li>
+									</div>
 							</div>
 							
-								<div class="large-3 small-12 medium-6 columns">
+								<div class="large-4 small-12 medium-6 columns">
 									<div class="item-wrapper">
 										<a target="_blank" href="http://web.tera.hr/#"><img class="displayed" src="<?php echo $putanjaAPP ?>img/Tera_logo_63.png" width="190px" height="140px" /></a>
 										<br/><br /> 
@@ -127,13 +158,26 @@ include_once 'konfig.php';
 										</ul>
 									</p>
 									</div>
+									<div class="item-wrapper">
+										<a target="_blank" href="http://etfos.hr/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/ferit2.png" width="200px"/></a>
+										<br/><br/><br/>
+										<p id="partneri">Što ti nudi FERIT? </p>
+										<ul>
+											<li>
+												sve što Vam je potrebno, a ostali partneri ne nude :-) ... uključujući do 8.000 kn za pomoć 
+												na putu prema komercijalizaciji
+											</li>
+											
+											<br /> 
+											<dd><a href="http://etfos.hr"><u>Saznajte više o FERIT-u!</u></a></li>
+									</div>
 								</div>
 				
-								<div class="large-3 small-12 medium-6 columns">
+								<div class="large-4 small-12 medium-6 columns">
 									<div class="item-wrapper">
 										<a target="_blank" href="http://www.efos.unios.hr/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/efos-logo.png" width="200px" height="10px"/></a>
 										<br/><br/>
-										<p id="partneri">Što nudi EFOS? </p>
+										<p id="partneri">Što ti nudi EFOS? </p>
 										<ul>
 											<li>
 												edukaciju o pokretanju poslovnog pothvata
@@ -166,39 +210,7 @@ include_once 'konfig.php';
 										</ul>
 									</div>
 								</div>
-								<div class="large-3 small-12 medium-6 columns">
-									<div class="item-wrapper">
-										<a target="_blank" href="http://sios.hr/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/sios.png" width="450px"/></a>
-										<br/><br/><br/>
-										<p id="partneri">Što nudi SIOS? </p>
-										<ul>
-											<li>
-												savjetovanje i mentoriranje početnika - učenika, studenata i mladih ljudi o pokretanju
-												i vođenju poduzetničkog pothvata
-											</li>
-											<li>
-												poduzetničku čitaonicu sa preko 50 naslova suvremene ekonomske literature
-											</li>
-											<li>
-												prostor, računala, pristup Internetu, print-scan-copy- sve što Vam treba za uspješnu pripremu i 
-												razradu Vaših poduzetničkih ideja uz podršku mentora
-											</li>
-											<li>
-												praćenje natječaja, predlaganje onih na koje se Vaše ideje mogu prijaviti, pomoć u prijavi na natječaje
-											</li>
-											<li>
-												pisanje i provedba projekata
-											</li>
-											<li>
-												informiranje i savjetovanje o aktualnim poreznim propisima, knjigovodstvu, obveznim davanjima i pravnim oblicima poslovanja
-											</li> 
-											<li>
-												umrežavanje s potencijalnim partnerima, upućivanje na relevantne izvore informacija i slično
-											</li>
-											<br /> 
-											<dd><a href="http://sios.hr/#"><u>Saznajte više o SIOS-u!</u></a></li>
-									</div>
-								</div>
+								
 								
 							</div>
 						</div>
@@ -210,11 +222,11 @@ include_once 'konfig.php';
 		    <!-- POČETAK KOMPOT-poziv PANELA -->
 		    
 		    
-			    <div class="tabs-panel" id="kompot">
+			    <div class="tabs-panel" id="zapro">
 			   		<div class="row">
-		    		<div class="large-3 small-12 medium-6 columns end">
+		    		<div class="large-4 small-12 medium-6 columns end">
 						<div class="item-wrapper">
-							<a target="_blank" href="http://www.etfos.unios.hr/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/.png" width="450px"/></a>
+							<a target="_blank" href="http://www.etfos.unios.hr/"><img class="displayed" src="<?php echo $putanjaAPP ?>img/ferit2.png" width="200px"/></a>
 							<br/><br/><br/>
 							<p id="partneri">Što ti nudi FERIT? </p>
 							<ul>

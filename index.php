@@ -32,14 +32,16 @@
 			<div class="large-4 columns" style="color: #1a80b6">
 				<h1>Što znati o natječaju?</h1><br />
 				
-				<p id="tekst">Natječaj će vjerojatno biti raspisan u travnju ili svibnju, a detalje uvjeta natječaja možete očekivati do kraja ožujka. 
-				Međutim, već sada možemo potvrditi suradnju s poduzetničkim inkubatorima Terom Tehnopolis, BIOS, SIOS, te s Ekonomskim fakultetom 
-				Osijek koji će biti potpora u realizaciji odabranih projektnih prijedloga.  Uz to očekujemo i sudjelovanje nekih tvrtki sa Stupa,
-				ali sve u svoje vrijeme. <br />   
+				<p id="tekst">Natječaj će vjerojatno biti raspisan u svibnju, a detalje uvjeta natječaja možete očekivati u travnju. 
+				Ukratko rečeno, natječaj će biti podijeljen u dva poziva: <br />   
 				</p>
+				<p id="povijestpro"><a href="natjecaj17.php"> - poziv za prezentacijski zanimljive projekte (ZAPRO-poziv) – ovo je zapravo poziv koji je bio i prethodne dvije godine</a></p>
+				<p id="povijestpro"><a href="natjecaj17.php"> - poziv za ideje s komercijalnim potencijalom (KOMPOT-poziv) – e, ovo je nešto novo!</a></p>
+				<p id="tekst">Pritom jednu ideju možete prijaviti istovremeno na oba poziva!</p>
 				<h4>Nemaš motivaciju???</h4>
-				<p id="nagrada">Razmisli još malo. Za izradu ti nudimo 8000 kn sredstava, a nagrađujemo dodatno najbolje radove iznosom od 2000 kn. Hmm, 
-				i dalje misliš da nije sve u novcu? Uz to, naši partneri BIOS, SIOS, Tera Tehnopolis i EFOS pobjednike također nagrađuju.
+				<p id="nagrada">Razmisli još malo. Trebaš samo prijaviti ideju, nemaš nikakvih troškova niti rizika, a imat ćeš podršku (financijsku, 
+				tehničku, stručnu, pravnu, moralnu, …) od Fakulteta i naših <a href="partneri.php">partnera</a> BIOS-a, 
+				Tere Tehnopolis, Ekonomskog fakulteta Osijek, Studentskog inkubatora Osijek, …
 				 </p>
 
 				

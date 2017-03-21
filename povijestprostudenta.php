@@ -24,8 +24,8 @@ include_once 'konfig.php';
 		<div class="row column large-12 medium-centered">
 		  <ul class="tabs text-center" data-tabs id="example-tabs">
 		    <li class="tabs-title is-active"><a href="#povijest" aria-selected="true">Povijest</a></li>
-		    <li class="tabs-title"><a href="#2015">Projekti 2015</a></li>
-		    <li class="tabs-title"><a href="#2016">Projekti 2016</a></li>
+		    <li class="tabs-title"><a href="#2015">ZAPRO Projekti 2015</a></li>
+		    <li class="tabs-title"><a href="#2016">ZAPRO Projekti 2016</a></li>
 		  </ul>
 		  <div class="tabs-content" data-tabs-content="example-tabs" >
 		  	
@@ -84,10 +84,10 @@ include_once 'konfig.php';
 					
 		</div>
 		<br/>
-		<p id="povijestpro">Povijest Pro-Studenta i nije toliko velika, ali baš zato se može pohvaliti dosadašnjim
-			idejama i izrađenim maketama. Naime, kako je Fakultetu iznimno važno podržavati i razvijati praktične
-			vještine studenata, u tu svrhu Fakultet od 2015. godine raspisuje natječaj "Pro-Student" za prezentacijski
-			zanimljive makete: </p>
+		<p id="povijestpro">Povijest Pro-Studenta i nije toliko velika, ali baš zato se može pohvaliti 
+		dosadašnjim idejama i izrađenim maketama. Naime, kako je Fakultetu iznimno važno podržavati i 
+		razvijati praktične vještine studenata, u tu svrhu Fakultet je od 2015. godine raspisivao natječaj 
+		"Pro-Student" za prezentacijski zanimljive makete (to je ono što se sad zove <a href="natjecaj17.php">ZAPRO-poziv</a>): </p>
 			<p id="povijestpro"> - prva godina (2015.)</p>
 			<a target="_blank" href="https://www.etfos.hr/studenti/sve-obavijesti/dogadanja-i-pozivi/2349#2349">https://www.etfos.hr/studenti/sve-obavijesti/dogadanja-i-pozivi/2349#2349</a> <br />
 			<a target="_blank" href="https://www.etfos.hr/studenti/sve-obavijesti/dogadanja-i-pozivi/2392#2392">https://www.etfos.hr/studenti/sve-obavijesti/dogadanja-i-pozivi/2392#2392</a>
@@ -147,12 +147,12 @@ include_once 'konfig.php';
 		    
 		    	<br />
 		    	<p id="povijestpro"><b>Druge godine su do kraja uspješno realizirani prijedlozi:</b></p>
-		    	
+		    	<br />
+				<p id="povijestpro">- Karlo Kostanjevac: KUGLA I STOL</p>
+				<p id="povijestpro">- David Zovko: SMART CITY LIGHTING  (video slijedi uskoro)</p>
 				<p id="povijestpro">- Tomislav Bešlić: MIKROUPRAVLJAČKI SUSTAV ZA PREPOZNAVANJE OBLIKA (video slijedi uskoro)</p>
-				<p id="povijestpro">- Karlo Kostanjevac: KUGLA I STOL (video slijedi uskoro)</p>
-				<p id="povijestpro">- David Zovko: RAČUNALNA IGRA PONG NA 16 MATRIČNIH POKAZNIKA (video slijedi uskoro)</p>
-				<p id="povijestpro">- Luka Ruškan: SMARTBOT (ROBOTCAR) (video slijedi uskoro)</p>
-				<p id="povijestpro">- Denis Vajak: SOLARNI PUNJAČ SA SUSTAVOM ZA PRAĆENJE POLOŽAJA SUNCA (video slijedi uskoro) </p>
+				<p id="povijestpro">- Luka Ruškan: SMARTHOME (video slijedi uskoro)</p>
+				<p id="povijestpro">- Denis Vajak: VIRTUALNA STVARNOST S POMOĆU HTC VIVE UREĐAJA (video slijedi uskoro) </p>
 			<br /> <br />
 		    </div>
 		  </div>

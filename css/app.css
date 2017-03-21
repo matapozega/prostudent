@@ -1,4 +1,7 @@
 /* FOOTER */
+a {
+	text-decoration: underline;
+}
 
 .footer {
   background-color: #292c2f;
@@ -38,7 +41,7 @@ h1 {
 	padding: 2px;
 	margin-top: 5px;
 	text-align: center; 
-	color: #ff0000;
+	color: #e63832;
 	}
 	
 #tekst{
@@ -54,7 +57,7 @@ h1 {
 	text-align: center;
 	font-size: 1.4rem;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
-	color: #FF0000;
+	color: #e63832;
 	}
 
 h5 {
@@ -77,14 +80,14 @@ dt{
 
 h4 {
 	font-weight: bold;
-	color: #ff0000;
+	color: #e63832;
 	text-align: center;	
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-size: 2rem;
 		}
 h3 {
 	font-weight: bold;
-	color: #ff0000;
+	color: #e63832;
 	text-align: center;	
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
 	font-size: 1.5rem;
@@ -147,7 +150,7 @@ h3 {
 
 #partneri {
 	text-align: center;
-	color: #ff0000;
+	color: #e63832;
 	font-weight: bold;
 	font-size: 1.5rem;
 	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
@@ -222,7 +225,8 @@ img.displayed {
 }
 
 .callout {
-    background-color: #1a80b6; 
+    /* background-color: #1a80b6;  --> */
+   background-color: #e63832;
     color: #ffffff;"
     
     
@@ -243,7 +247,7 @@ img.displayed {
 }
 
 .menu li:hover{
-	border-top: 4px solid #FF0000;
+	border-top: 4px solid #e63832;
 	text-decoration: underline;	
 }
 
@@ -253,12 +257,12 @@ img.displayed {
 	font-size: 1rem;
 	margin-top: 10px;
 	margin-bottom: 10px;
-	color: red;
+	color: #e63832;
 	display: inline-block;
   }
 
 .menu .aktivno{
-	border-top: 4px solid #FF0000;
+	border-top: 4px solid #e63832;
 	text-decoration: underline;		
 }
 
@@ -312,5 +316,11 @@ table {
 	border-collapse: collapse;	
 }
 
-   
+
+
+#header_crta {
+	background-color: blue;
+	margin: 0;
+	height: 6px;
+}
 

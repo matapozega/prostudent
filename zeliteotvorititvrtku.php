@@ -19,7 +19,7 @@
 					<div class="row expanded">
 						<div class="large-12 small-12 medium-12 columns">
 							<p id="tekst" style="text-align:center;">Želite otvoriti tvrtku, a ne znate kako?<br />
-							<b>Imate sreće, sve odgovore imamo mi!</b></p>
+							<b>Imate sreće, sve odgovore znamo mi! … ili barem znamo nekoga tko zna nekoga tko zna odgovore :-)</b></p>
 						</div>
 					</div>
 					<div class="row expanded">
