@@ -23,9 +23,9 @@ include_once 'konfig.php';
 		
 		<div class="row column large-12 medium-centered">
 		  <ul class="tabs text-center" data-tabs id="example-tabs">
-		    <li class="tabs-title is-active"><a href="#povijest" aria-selected="true">Povijest</a></li>
-		    <li class="tabs-title"><a href="#2015">ZAPRO Projekti 2015</a></li>
-		    <li class="tabs-title"><a href="#2016">ZAPRO Projekti 2016</a></li>
+		    <li class="tabs-title is-active"><a class="underline" href="#povijest" aria-selected="true">Povijest</a></li>
+		    <li class="tabs-title"><a class="underline" href="#2015">ZAPRO Projekti 2015</a></li>
+		    <li class="tabs-title"><a class="underline" href="#2016">ZAPRO Projekti 2016</a></li>
 		  </ul>
 		  <div class="tabs-content" data-tabs-content="example-tabs" >
 		  	

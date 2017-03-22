@@ -12,7 +12,7 @@ $i = json_decode($json);
 				class="aktivno"
 			<?php endif;
 				?>>
-			<a id="<?php echo $lista -> id; ?>" href="<?php echo $lista -> href; ?>"><span><?php echo $lista->naslov  ?></span></a>
+			<a class="underline" id="<?php echo $lista -> id; ?>" href="<?php echo $lista -> href; ?>"><span><?php echo $lista->naslov  ?></span></a>
 				</li>
 			<?php endforeach; ?>
 		</ul>

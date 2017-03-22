@@ -22,8 +22,8 @@ include_once 'konfig.php';
 		<div class="row">
 			<div class="row column large-12 medium-centered">
 				 <ul class="tabs text-center" data-tabs id="example-tabs">
-				    <li class="tabs-title is-active"><a href="#zapro" aria-selected="true">ZAPRO-poziv</a></li>
-				    <li class="tabs-title"><a href="#kompot">KOMPOT-poziv</a></li>
+				    <li class="tabs-title is-active"><a class="underline" href="#zapro" aria-selected="true">ZAPRO-poziv</a></li>
+				    <li class="tabs-title"><a class="underline" href="#kompot">KOMPOT-poziv</a></li>
 				 </ul>
 				 
 		  <div class="tabs-content" data-tabs-content="example-tabs" >

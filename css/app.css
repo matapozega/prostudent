@@ -2,6 +2,10 @@
 a {
 	text-decoration: underline;
 }
+.underline{
+	text-decoration: none; }
+
+
 
 .footer {
   background-color: #292c2f;
@@ -281,34 +285,25 @@ img.displayed {
  
   
 
-/* uredivanje slike preko id-a 
-#slika1{
-	border-radius:0%;
-} 
-*/
-/* uredivanje paragrafa preko id-a */
-#h{
-	text-decoration: underline;
-}
+
 
 #tabl {
-	background-color: #FFFFFF;
-	color: #93a661;
-	/*border: 1px solid #000000;*/
+	background-color: #E63832;
+	color: white;
 	font-weight: bold;
-	border:1px solid #93a661;
+	border:1px solid white;
 }
 
 #tera {
-	background-color: #96caff;
-	color: #3c6478;
-	border:1px solid #93a661;
+	background-color: #19507a;
+	color: #ffffff;
+	border:1px solid white;	
 }
 
 #bios {
-	background-color:#fff49a;
-	color: #3c6478;
-	border:1px solid #93a661;
+	background-color: #278ffb;
+	color: #ffffff;
+	border:1px solid white;
 }
 
 table {
@@ -319,8 +314,8 @@ table {
 
 
 #header_crta {
-	background-color: blue;
+	background-color: #19507a;
 	margin: 0;
-	height: 6px;
+	height: 2px;
 }
 
