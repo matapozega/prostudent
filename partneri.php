@@ -22,8 +22,12 @@ include_once 'konfig.php';
 		<div class="row">
 			<div class="row column large-12 medium-centered">
 				 <ul class="tabs text-center" data-tabs id="example-tabs">
-				    <li class="tabs-title is-active"><a class="underline" href="#zapro" aria-selected="true">ZAPRO-poziv</a></li>
-				    <li class="tabs-title"><a class="underline" href="#kompot">KOMPOT-poziv</a></li>
+				    <li class="tabs-title is-active"><a class="underline" href="#kompot" aria-selected="true">KOMPOT-poziv
+				    <img src="<?php echo $putanjaAPP ?>img/tegla.png" alt="ZAPRO" style="width:24px;height:24px;">
+				    </a></li>
+				    <li class="tabs-title"><a class="underline" href="#zapro">ZAPRO-poziv
+				    <img src="<?php echo $putanjaAPP ?>img/kljuc.png" alt="ZAPRO" style="width:24px;height:24px;"> 
+				    </a></li>
 				 </ul>
 				 
 		  <div class="tabs-content" data-tabs-content="example-tabs" >
@@ -164,6 +168,12 @@ include_once 'konfig.php';
 										<p id="partneri">Što ti nudi FERIT? </p>
 										<ul>
 											<li>
+												tehnička i stručna podrška djelatnika Fakulteta pri realizaciji prototipa proizvoda
+											</li>
+											<li>
+												 za uspješnu realizaciju dodatna financijska nagrada (2.000 kn!) i priznanje za Dan Fakulteta
+											</li>
+											<li>
 												sve što Vam je potrebno, a ostali partneri ne nude :-) ... uključujući do 8.000 kn za pomoć 
 												na putu prema komercijalizaciji
 											</li>
@@ -231,13 +241,13 @@ include_once 'konfig.php';
 							<p id="partneri">Što ti nudi FERIT? </p>
 							<ul>
 								<li>
-									do 8.000 kn za realizacijua
+									do 8.000 kn za realizaciju
 								</li>
 								<li>
 									tehnička i stručna podrška djelatnika Fakulteta
 								</li>
 								<li>
-									za uspješnu realizaciju dodatna financijska nagrada i priznanje za Dan Fakulteta
+									za uspješnu realizaciju dodatna financijska nagrada (2.000 kn) i priznanje za Dan Fakulteta
 								</li>
 								<li>
 									tapšanje po ramenu uz uzvike „Bravo, majstore! Svaka čast!“ 

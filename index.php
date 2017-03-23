@@ -41,8 +41,10 @@
 				<h4>Nemaš motivaciju???</h4>
 				<p id="nagrada">Razmisli još malo. Trebaš samo prijaviti ideju, nemaš nikakvih troškova niti rizika, a imat ćeš podršku (financijsku, 
 				tehničku, stručnu, pravnu, moralnu, …) od Fakulteta i naših <a href="partneri.php">partnera</a> BIOS-a, 
-				Tere Tehnopolis, Ekonomskog fakulteta Osijek, Studentskog inkubatora Osijek, …
+				Tere Tehnopolis, Ekonomskog fakulteta Osijek, Studentskog inkubatora Osijek, … </br>
+				A ako uspješno realiziraš prijedlog, dobiješ 2.000 kn dodatne nagrade + priznanje za Dan Fakulteta!
 				 </p>
+
 
 				
 			</div>

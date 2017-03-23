@@ -319,3 +319,9 @@ table {
 	height: 2px;
 }
 
+#istaknuto {
+	color: #e63832;
+	font-weight: bold;
+	font-size: 1rem;
+	font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+}

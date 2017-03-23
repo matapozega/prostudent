@@ -16,8 +16,12 @@
 		<div class="row">
 			<div class="row column large-12 medium-centered">
 				 <ul class="tabs text-center" data-tabs id="example-tabs">
-				    <li class="tabs-title is-active"><a class="underline" href="#zapro" aria-selected="true">ZAPRO-poziv</a></li>
-				    <li class="tabs-title"><a class="underline" href="#kompot">KOMPOT-poziv</a></li>
+				    <li class="tabs-title is-active"><a class="underline" href="#kompot" aria-selected="true">KOMPOT-poziv
+					<img src="<?php echo $putanjaAPP ?>img/tegla.png" alt="ZAPRO" style="width:24px;height:24px;"> 
+				    </a></li>
+				    <li class="tabs-title"><a class="underline" href="#zapro">ZAPRO-poziv
+				    <img src="<?php echo $putanjaAPP ?>img/kljuc.png" alt="ZAPRO" style="width:24px;height:24px;"> 
+				    </a></li>
 				 </ul>
 				 
 		  <div class="tabs-content" data-tabs-content="example-tabs" >
@@ -57,6 +61,12 @@
 							</li>
 							<li id="povijestpro">
 								razina razlikovanja prijedloga u odnosu na prijedloge realizirane na <a href="povijestprostudenta.php">dosadašnjim Pro-Student natječajima</a>
+							</li>
+							<li id="istaknuto">
+								Pročitaj Poziv za prijavu i popuni prijavni obrazac, te ga predaj do 2. lipnja 2017. godine (detalji navedeni u Pozivu za prijavu). 
+							</li>
+							<li id="istaknuto">
+								Rok za realizaciju je 31. listopada 2017. godine.
 							</li>
 							
 						</ul>
@@ -98,10 +108,16 @@
 								jasnoća što ideja predstavlja
 							</li>
 							<li id="povijestpro">
-								koliko je trenutačna realizacija blizu razini spremnoj za komercijalizaciju
+								potencijal na tržištu
 							</li>
 							<li id="povijestpro">
-								potencijal na tržištu
+								Odabrani prijedlozi će dobiti punu podršku partnera!
+							</li>
+							<li id="istaknuto">
+								Pročitaj Poziv za prijavu i popuni prijavni obrazac, te ga predaj do 2. lipnja 2017. godine (detalji navedeni u Pozivu za prijavu).
+							</li>
+							<li id="istaknuto">
+								 Rok za realizaciju je 15. prosinca 2017. godine.
 							</li>
 							
 							
