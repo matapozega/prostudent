@@ -103,7 +103,7 @@
 							<p id="tekst">Sve ostale informacije studenti mogu pogledati u cjelovitim verzijama dokumenata:</p>
 							<ul id="tekst">
 								<li><b><u><a href="<?php echo $putanjaAPP ?>doc/tera.pdf">dokument Tere</a></u></b></li>
-								<li><b><u>dokument BIOS-a</u></b></li>
+								<li><b><u><a href="<?php echo $putanjaAPP ?>doc/bios.pdf">dokument BIOS-a</a></u></b></li>
 							</ul>
 							<p id="tekst">i/ili se javiti na kontakt adrese poduzetničkih inkubatora:</p>
 							<ul>
@@ -126,7 +126,7 @@
 		</div>
 		<div class="large-3 small-3 medium-3 columns" data-sticky-container>
  			<div class="sticky" data-sticky data-anchor="foo">
-				<center><img src="<?php echo $putanjaAPP ?>img/tvrtka.png" alt="tvrtka" style="width:400px; height:350px;"></center>
+				<img src="<?php echo $putanjaAPP ?>img/tvrtka.png" alt="tvrtka" style="width:300px; height:300px;">
 			</div>
 		</div>
 	</div>

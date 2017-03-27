@@ -65,6 +65,27 @@ include_once 'konfig.php';
 									 <p id="opis"><br /><b>Stjepan Krpan: SMARTBOT (ROBOTCAR)</b></p>
 								</div>
 							</li>
+							<li class="orbit-slide">
+								<div>
+									 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/vr.jpg" alt="Denis Vajak: VIRTUALNA STVARNOST">
+									 <br />
+									 <p id="opis"><br /><b>Denis Vajak: VIRTUALNA STVARNOST S POMOĆU HTC VIVE UREĐAJA</b></p>
+								</div>
+							</li>
+							<li class="orbit-slide">
+								<div>
+									 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/kuglaistol.png" alt="Karlo Kostanjevac: KUGLA I STOL">
+									 <br />
+									 <p id="opis"><br /><b>Karlo Kostanjevac: KUGLA I STOL</b></p>
+								</div>
+							</li>
+							<li class="orbit-slide">
+								<div>
+									 <img class="orbit-image" src="<?php echo $putanjaAPP; ?>img/SmartCity.png" alt="David Zovko: SMART CITY LIGHTING">
+									 <br />
+									 <p id="opis"><br /><b>David Zovko: SMART CITY LIGHTING</b></p>
+								</div>
+							</li>
 						</ul>
 						<nav class="orbit-bullets">
 							<button class="is-active" data-slide="0">
@@ -78,6 +99,15 @@ include_once 'konfig.php';
 							</button>
 							<button data-slide="3">
 								<span class="show-for-sr">Fourth slide details.</span>
+							</button>
+							<button data-slide="4">
+								<span class="show-for-sr">Fifth slide details.</span>
+							</button>
+							<button data-slide="5">
+								<span class="show-for-sr">Fifth slide details.</span>
+							</button>
+							<button data-slide="6">
+								<span class="show-for-sr">Fifth slide details.</span>
 							</button>
 						</nav>
 					</div>
@@ -109,34 +139,33 @@ include_once 'konfig.php';
 		    <br />
 		    
 		    	<p id="povijestpro"><b>Prve godine su do kraja uspješno realizirani prijedlozi:</b></p>
-			
-					<div class="video">
-						<video id="video" width="640" height="480" controls>
-		  					<source src="<?php echo $putanjaAPP ?>video/pong.mp4" type="video/mp4">
-						</video>
-						<p id="opisvideo">Tomislav Bešlić: RAČUNALNA IGRA PONG NA 16 MATRIČNIH POKAZNIKA</p>
-					</div>
+				<div class="video">
+					<video id="video" width="640" height="480" controls>
+	  					<source src="<?php echo $putanjaAPP ?>video/pong.mp4" type="video/mp4">
+					</video>
+					<p id="opisvideo">Tomislav Bešlić: RAČUNALNA IGRA PONG NA 16 MATRIČNIH POKAZNIKA</p>
+				</div>
 
-					<div class="video">
-						<video id="video" width="640" height="480" controls>
-		  					<source src="<?php echo $putanjaAPP ?>video/roboruka.mp4" type="video/mp4">
-						</video>
-						<p id="opisvideo">Karlo Kostanjevac: ROBOTSKA RUKA UPRAVLJANA LJUDSKOM RUKOM</p>
-					</div>
-		
-					<div class="video">
-						<video id="video" width="640" height="480" controls>
-			  				<source src="<?php echo $putanjaAPP ?>video/smartbot.mp4" type="video/mp4">
-						</video>
-						<p id="opisvideo">Stjepan Krpan: SMARTBOT (ROBOTCAR)</p>
-					</div>
-					
-					<div class="video">
-						<video id="video" width="640" height="480" controls>
-			  				<source src="<?php echo $putanjaAPP ?>video/solarni.mp4" type="video/mp4">
-						</video>
-						<p id="opisvideo">Matej Žnidarec: SOLARNI PUNJAČ SA SUSTAVOM ZA PRAĆENJE POLOŽAJA SUNCA</p>
-			</div>
+				<div class="video">
+					<video id="video" width="640" height="480" controls>
+	  					<source src="<?php echo $putanjaAPP ?>video/roboruka.mp4" type="video/mp4">
+					</video>
+					<p id="opisvideo">Karlo Kostanjevac: ROBOTSKA RUKA UPRAVLJANA LJUDSKOM RUKOM</p>
+				</div>
+
+				<div class="video">
+					<video id="video" width="640" height="480" controls>
+		  				<source src="<?php echo $putanjaAPP ?>video/smartbot.mp4" type="video/mp4">
+					</video>
+					<p id="opisvideo">Stjepan Krpan: SMARTBOT (ROBOTCAR)</p>
+				</div>
+				
+				<div class="video">
+					<video id="video" width="640" height="480" controls>
+		  				<source src="<?php echo $putanjaAPP ?>video/solarni.mp4" type="video/mp4">
+					</video>
+					<p id="opisvideo">Matej Žnidarec: SOLARNI PUNJAČ SA SUSTAVOM ZA PRAĆENJE POLOŽAJA SUNCA</p>
+				</div>
 		    </div>
 		    
 		    
@@ -148,11 +177,26 @@ include_once 'konfig.php';
 		    	<br />
 		    	<p id="povijestpro"><b>Druge godine su do kraja uspješno realizirani prijedlozi:</b></p>
 		    	<br />
-				<p id="povijestpro">- Karlo Kostanjevac: KUGLA I STOL</p>
-				<p id="povijestpro">- David Zovko: SMART CITY LIGHTING  (video slijedi uskoro)</p>
+		    	<div class="video">
+					<video id="video" width="640" height="480" controls>
+		  				<source src="<?php echo $putanjaAPP ?>video/KuglaStol.mp4" type="video/mp4">
+					</video>
+				</div>
+				<p id="opisvideo">Karlo Kostanjevac: KUGLA I STOL</p>
+				<div class="video">
+					<video id="video" width="640" height="480" controls>
+		  				<source src="<?php echo $putanjaAPP ?>video/SmartCity.mp4" type="video/mp4">
+					</video>
+				</div>
+				<p id="opisvideo">David Zovko: SMART CITY LIGHTING</p>
+				<div class="video">
+					<video id="video" width="640" height="480" controls>
+		  				<source src="<?php echo $putanjaAPP ?>video/VirtualReality.mp4" type="video/mp4">
+					</video>
+				</div>
+				<p id="opisvideo">Denis Vajak: VIRTUALNA STVARNOST S POMOĆU HTC VIVE UREĐAJA </p>
 				<p id="povijestpro">- Tomislav Bešlić: MIKROUPRAVLJAČKI SUSTAV ZA PREPOZNAVANJE OBLIKA (video slijedi uskoro)</p>
 				<p id="povijestpro">- Luka Ruškan: SMARTHOME (video slijedi uskoro)</p>
-				<p id="povijestpro">- Denis Vajak: VIRTUALNA STVARNOST S POMOĆU HTC VIVE UREĐAJA (video slijedi uskoro) </p>
 			<br /> <br />
 		    </div>
 		  </div>
