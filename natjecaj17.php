@@ -72,7 +72,7 @@
 					</ul>
 				</div>
 				<div class="large-3 columns">
-					<img class="show-for-large-only" src="<?php echo $putanjaAPP ?>img/kljuc.png" alt="ZAPRO" style="width:200px;height:200px;">
+					<img src="<?php echo $putanjaAPP ?>img/kljuc.png" alt="ZAPRO" style="width:200px;height:200px;">
 				</div>
 			</div>
 			<div class="row">
@@ -133,7 +133,7 @@
 					
 				</div>
 				<div class="large-3 columns">
-					<img class="show-for-large-only" src="<?php echo $putanjaAPP ?>img/tegla.png" alt="KOMPRO" style="width:200px;height:200px;">
+					<img src="<?php echo $putanjaAPP ?>img/tegla.png" alt="KOMPRO" style="width:200px;height:200px;">
 				</div>
 			</div>
 			<div class="row">
